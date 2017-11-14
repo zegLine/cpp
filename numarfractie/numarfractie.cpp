@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <math.h>
+#include <limits>
 
 using namespace std;
 
@@ -10,9 +12,23 @@ using namespace std;
 int main(){
 
     cout << "Dati un numar : " << endl;
-    cin >> nuamrDat;
+    cin >> numarDat;
 
-    
+    int s = sign(numarDat);
+    float ax = abs(numarDat);
+    float f = s*(ax - floor(ax));
+
+    int i = 0;
+
+    while (true) {
+
+        i++;
+
+        cout << "ss";
+
+        if (i == 5) break;
+
+    }
 
     cout << "a este " << a << " iar b este " << b << endl;
 
