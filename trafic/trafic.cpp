@@ -1,5 +1,7 @@
 #include <iostream>
-#define LIMIT 1500;
+#define LIMIT 1500
+
+using namespace std;
 
 int main () {
 
